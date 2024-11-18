@@ -10,7 +10,7 @@ LICENSE=LGPL-2.1+
 RDEPEND=glslang? ( dev-util/glslang ) lcms? ( media-libs/lcms:2 ) opengl? ( media-libs/libepoxy ) shaderc? ( >=media-libs/shaderc-2017.2 ) vulkan? ( dev-util/vulkan-headers media-libs/vulkan-loader )
 REQUIRED_USE=vulkan? ( || ( glslang shaderc ) )
 RESTRICT=test
-SLOT=0/229
-SRC_URI=https://regen.mordor/71/02/43/710243baa15765e8b9cb523b69aec7f3fec437ab5b739f5cdf6ca2de234c364f80ea1cecc1d8395f07a45f6e08991021cd25f80013ed5b291f5706b7a4d18d7f -> libplacebo-5.229.2-with-submodules.tar.xz
+SLOT=0/349
+SRC_URI=https://regen.mordor/f8/13/8c/f8138c1bfcf3b1af9c93f666bae9c7148547a7e1535c807c8d465fecf1e02c2d736c4a14cbe423ae33ec18e6f14a31225bb6b897d8613c4d824c275e88492a77 -> libplacebo-7.349.0-with-submodules.tar.xz
 _eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	meson	05aa1843efaa1d580f7007e5482fc201	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	e7575bc4a90349d76e72777013b2bbc2	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	d3f9ec72badd0291b655682d67876adc	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=501a14bb7102c64707d089c3b74f8f80
+_md5_=31c997b6024abaab56a98757bb656892
