@@ -18,11 +18,11 @@ EGO_SUM=(
 	"github.com/stretchr/objx v0.1.0/go.mod"
 	"github.com/stretchr/testify v1.7.1"
 	"github.com/stretchr/testify v1.7.1/go.mod"
-	"golang.org/x/net v0.31.0"
-	"golang.org/x/net v0.31.0/go.mod"
+	"golang.org/x/net v0.32.0"
+	"golang.org/x/net v0.32.0/go.mod"
 	"golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab/go.mod"
-	"golang.org/x/sys v0.27.0"
-	"golang.org/x/sys v0.27.0/go.mod"
+	"golang.org/x/sys v0.28.0"
+	"golang.org/x/sys v0.28.0/go.mod"
 	"gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod"
 	"gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c"
 	"gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod"
@@ -32,14 +32,14 @@ go-module_set_globals
 
 DESCRIPTION="Commandline tool to customize Spotify client."
 HOMEPAGE="https://github.com/khanhas/spicetify-cli"
-SRC_URI="https://github.com/spicetify/spicetify-cli/tarball/b26a60e41dd4296ba337b58f68ec2b1de2b422cf -> spicetify-cli-2.38.5-b26a60e.tar.gz
-https://regen.mordor/bf/b7/77/bfb7771d8e67546aea79b152452b13f05d8205e309d633872ca4046cacac22733c0a61a98b9473cd86e2f7cf21414ba47fb2bcc36fc1d66c539e18dd0190fca0 -> spicetify-cli-2.38.5-funtoo-go-bundle-a62585b1797d79af51e9ad1fb981b1188e29fee2653662f63548a5233794da151677bf843d59a1db90b51f3926e38f32c7cebe70c5b1d2671936b542d2586b37.tar.gz"
+SRC_URI="https://github.com/spicetify/spicetify-cli/tarball/fa1070dbde6e2360efbbfaab4861b76caaef51f9 -> spicetify-cli-2.38.6-fa1070d.tar.gz
+https://regen.mordor/4e/18/53/4e1853d36c8bf13b557f67b7ce6fd4ab5a2b1e5c2679704d93588aee7c59bb7fcf272d695ffb0a075664c83946470db1a691ee43f2b3e7e279c317d3f0fff6c1 -> spicetify-cli-2.38.6-funtoo-go-bundle-7fb1fee179caa8400a004947fe38a787abd8e4081cd8acade0d14207a5c438aa5bedc9e233b6a0c0b9c3911120c8b6743268db27fa64fa08628699bf7fb8a3ef.tar.gz"
 
 LICENSE="Apache-2.0 BSD GPL-3 MIT"
 SLOT="0"
 KEYWORDS="*"
 IUSE="hook"
-S="${WORKDIR}/spicetify-cli-b26a60e"
+S="${WORKDIR}/spicetify-cli-fa1070d"
 
 INSTALLDIR="/opt/${PN}"
 
