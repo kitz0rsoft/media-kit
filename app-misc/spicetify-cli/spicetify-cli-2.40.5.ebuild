@@ -138,14 +138,14 @@ go-module_set_globals
 
 DESCRIPTION="Commandline tool to customize Spotify client."
 HOMEPAGE="https://github.com/khanhas/spicetify-cli"
-SRC_URI="https://github.com/spicetify/spicetify-cli/tarball/cdb0a4549e93606b3078e0bde0cf1e11cd1cabd4 -> spicetify-cli-2.40.4-cdb0a45.tar.gz
-https://regen.mordor/1e/0e/5b/1e0e5b808c54511572cf5b0a120105935041d8d9762e54899b7405018886512726997fe0fe331085b7b028344db7e7a61259104bb8a46dcef641ff03443495e7 -> spicetify-cli-2.40.4-funtoo-go-bundle-054fc5ea60bde542b405f43a52416f8efa0a79144362aa9e343761d2bea96b224577ad409710f5c459c725d5a065ce8838a38679e7b4237445c288ba6cc808c4.tar.gz"
+SRC_URI="https://github.com/spicetify/spicetify-cli/tarball/8860f1b8d8a6a62056456b1f43d1cca71fdd2813 -> spicetify-cli-2.40.5-8860f1b.tar.gz
+https://regen.mordor/ca/73/d6/ca73d6f15380b7f00350620b43a6a1efdc3a4ddd8563a4b048b1754402383f92ac83c1305efe6ad52de2b4eee10c332383e50dd6d2cd86c928e5ab7e32edf490 -> spicetify-cli-2.40.5-funtoo-go-bundle-054fc5ea60bde542b405f43a52416f8efa0a79144362aa9e343761d2bea96b224577ad409710f5c459c725d5a065ce8838a38679e7b4237445c288ba6cc808c4.tar.gz"
 
 LICENSE="Apache-2.0 BSD GPL-3 MIT"
 SLOT="0"
 KEYWORDS="*"
 IUSE="hook"
-S="${WORKDIR}/spicetify-cli-cdb0a45"
+S="${WORKDIR}/spicetify-cli-8860f1b"
 
 INSTALLDIR="/opt/${PN}"
 
